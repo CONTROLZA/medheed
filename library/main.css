@@ -1,35 +1,5 @@
-#whatsapp {
-    position: fixed;
-    bottom: 20px;
-    right: 2.6%;
-  
-    text-align: center;
-    z-index: 999;
-  }
-  
-  #whatsapp i {
-    font-size: 70px;
-    color: rgba(11, 197, 73, 0.733);
-    margin: 12px;
-    -moz-transform: scale(-1, 1);
-    -o-transform: scale(-1, 1);
-    -webkit-transform: scale(-1,1);
-    transform: scale(-1, 1);
-  }
-  
-  @media only screen and (max-width: 425px) {
-  
-    #whatsapp {
-        bottom: 10px;
-        right: 10px;
-    }
-  
-    #whatsapp i{
-        font-size: 40px;
-    }
-  
-  }
 
+  
 
 nav{
     background-color: rgba(246, 209, 209, 0.5) !important;
@@ -81,7 +51,11 @@ nav a{
 
 
 header .header_background{
-    background-image: url('https://images.unsplash.com/photo-1551601651-2a8555f1a136?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=772&q=80');
+    /* background-image: url('https://images.unsplash.com/photo-1551601651-2a8555f1a136?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=772&q=80'); */
+   
+    background-image: url('http://i.stack.imgur.com/kx8MT.gif');
+   
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -168,18 +142,37 @@ li{
     list-style: none;
 }
 
-
-i.fa-whatsapp{
-    font-size: 25px;
-    color: rgb(86, 221, 86);
+i.fa-whatsapp,i.fa-search-location{
+  font-size: 25px;
 }
 
 .f_karla{
     font-family: 'Karla', sans-serif;
+    font-family :kepler-std;
+    font-size:36.4336px;
+    line-height:47.3345px;
+    vertical-align:baseline;
+    letter-spacing:normal;
+    font-weight:300;
+    text-decoration:none solid rgb(255, 255, 255)
+}
+.f_karlaa{
+  font-size:20.6944px;
+  font-family:kepler-std;
+  Font  :kepler-std;
+  vertical-align:baseline;
+  font-weight:300;
 }
 
 .f_source{
     font-family: 'Source Serif Pro', serif;
+    font-family :kepler-std;
+    Font :kepler-std;
+    line-height:39.4807px;
+    vertical-align:baseline;
+    letter-spacing:normal;
+    font-weight:300;
+    text-align:center;
 }
 
 .f_karla_b{
@@ -220,3 +213,52 @@ i.fa-whatsapp{
 
     }
   }
+
+  /*-------------------------------- About page css ------------------------------------
+  -----------------------------------------------------*/
+  .about_body{
+    background-color:#FDF0E6;
+}
+
+/*--------------------- Service pages --------------
+------------------------------------------ */
+.section {
+  padding: 100px 0;
+}
+
+.section-sm {
+  padding: 70px 0;
+}
+
+.service-block {
+  padding: 20px;
+  margin-top: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  box-shadow: 0 0 38px rgba(21, 40, 82, 0.07);
+}
+
+.service-block img {
+  width: 100%;
+  margin-top: -60px;
+  border: 5px solid #fff;
+}
+
+/* New Whatsapp */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
