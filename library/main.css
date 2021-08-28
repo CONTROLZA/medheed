@@ -262,3 +262,8 @@ i.fa-whatsapp,i.fa-search-location{
 .my-float{
 	margin-top:16px;
 }
+
+
+h1,h2,h3,h4,h5,p {
+  line-height: 2;
+}
