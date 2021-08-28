@@ -230,3 +230,13 @@ i.fa-whatsapp{
 #footer_talk h3{
   font-size: 1.3rem;
 }
+
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+  background-color:#87219C;
+}
