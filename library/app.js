@@ -14,11 +14,11 @@ function submitForm(e) {
   let country_code= document.querySelector(".country_code").value;
   let phone_number= document.querySelector(".phone_number").value;
   let message = document.querySelector(".message").value;
-  console.log(first_name, last_name, email,education,business,medical,message);
+  console.log(first_name, last_name, email,education,business, medical,country_code,phone_number, message);
 
 //   saveContactInfo(name, email, message);
 
-  document.querySelector(".contact-form").reset();
+//   document.querySelector(".contact-form").reset();
 
   sendEmail(first_name, last_name, email,education,business,medical,country_code,phone_number,message);
 }
