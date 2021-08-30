@@ -56,8 +56,10 @@ function sendEmail(
 ) {
   Email.send({
 
-    
-    SecureToken : "3def6893-8292-4b1b-9594-1b5226b8d044",
+    Host : "smtp.gmail.com",
+    Username : "controlza2021@gmail.com",
+    Password : "Ekol1927",
+    // SecureToken : "3def6893-8292-4b1b-9594-1b5226b8d044",
     To: "abdoulkowiyy2020@gmail.com",
     From: "controlza2021@gmail.com",
     Subject: `${first_name} ${last_name} sent you a message`,
