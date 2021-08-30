@@ -114,6 +114,7 @@ header .cont_texts{
      }
 
      header .mask{
+        
         width:100% !important;
         margin: 0 !important;
         padding: 0 !important;
@@ -265,9 +266,10 @@ a.button {
   }
 
   .bg-1 {
-    background: url("../images/22.jpg") no-repeat 50% 50%;
+    background: url("../images/img885.jpg") no-repeat 50% 100%;
     background-size: cover;
     position: relative;
+  
   }
 
   .overlay:before {
