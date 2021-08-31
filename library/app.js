@@ -91,11 +91,7 @@ function sendEmail(
          I'm interested in : ${business}<br/> 
          Country Code: ${country_code} <br/> 
          Phone Number : ${phone_number} <br/>
-         Message: ${message}
-         `,
-         Attachments : [
-            {
-               file : file
-            }]
+         Message: ${message}`,
+
   }).then((message) => alert("Mail sent Successfully"));
 }
