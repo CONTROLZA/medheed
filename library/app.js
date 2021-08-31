@@ -8,8 +8,6 @@ function submitForm(e) {
   let first_name = document.querySelector(".first_name").value;
   let last_name = document.querySelector(".last_name").value;
   let email = document.querySelector(".email").value;
-
-  let file=document.querySelector(".file").value;
 //   let education = document.querySelector(".education").value;
 let education ;
 let medical ;
@@ -43,7 +41,7 @@ if (busicheck.checked == true){
     medical,
     country_code,
     phone_number,
-    message,file
+    message
   );
 
   //   saveContactInfo(name, email, message);
@@ -60,7 +58,6 @@ if (busicheck.checked == true){
     country_code,
     phone_number,
     message,
-    file
   );
 }
 
@@ -74,7 +71,6 @@ function sendEmail(
   country_code,
   phone_number,
   message,
-  file
 ) {
   Email.send({
     Host : "smtp.gmail.com",
