@@ -12,6 +12,7 @@ function submitForm(e) {
 let education ;
 let medical ;
 let business ;
+  
  
   let country_code = document.querySelector(".country_code").value;
   let phone_number = document.querySelector(".phone_number").value;
